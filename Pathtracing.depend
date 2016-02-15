@@ -1,0 +1,269 @@
+# depslib dependency file v1.0
+1448046922 source:/home/sergio/Dropbox/ufmg/mestrado/disciplinas/cga/trabalhos/tp2-pathtracing/code_cb/src/light.cpp
+	"light.h"
+	"multijittered.h"
+	<string>
+
+1448064109 /home/sergio/Dropbox/ufmg/mestrado/disciplinas/cga/trabalhos/tp2-pathtracing/code_cb/src/light.h
+	"math/point.h"
+	"color.h"
+
+1448065778 /home/sergio/Dropbox/ufmg/mestrado/disciplinas/cga/trabalhos/tp2-pathtracing/code_cb/src/math/point.h
+	<iostream>
+	"vector.h"
+
+1445777093 /home/sergio/Dropbox/ufmg/mestrado/disciplinas/cga/trabalhos/tp2-pathtracing/code_cb/src/math/vector.h
+	<iostream>
+	"math.h"
+
+1445777124 /home/sergio/Dropbox/ufmg/mestrado/disciplinas/cga/trabalhos/tp2-pathtracing/code_cb/src/math/math.h
+	<cmath>
+
+1447356264 /home/sergio/Dropbox/ufmg/mestrado/disciplinas/cga/trabalhos/tp2-pathtracing/code_cb/src/color.h
+	<iostream>
+	<math.h>
+
+1445777233 /home/sergio/Dropbox/ufmg/mestrado/disciplinas/cga/trabalhos/tp2-pathtracing/code_cb/src/multijittered.h
+	"sampler.h"
+
+1445779136 /home/sergio/Dropbox/ufmg/mestrado/disciplinas/cga/trabalhos/tp2-pathtracing/code_cb/src/sampler.h
+	<vector>
+	<math.h>
+	"math/point.h"
+
+1448064239 source:/home/sergio/Dropbox/ufmg/mestrado/disciplinas/cga/trabalhos/tp2-pathtracing/code_cb/src/main.cpp
+	"scene.h"
+	"pathtracer.h"
+
+1447367352 /home/sergio/Dropbox/ufmg/mestrado/disciplinas/cga/trabalhos/tp2-pathtracing/code_cb/src/scene.h
+	"object.h"
+	"structs.h"
+	"light.h"
+
+1448042673 /home/sergio/Dropbox/ufmg/mestrado/disciplinas/cga/trabalhos/tp2-pathtracing/code_cb/src/object.h
+	"structs.h"
+	"ray.h"
+	"math/matrix.h"
+
+1448046753 /home/sergio/Dropbox/ufmg/mestrado/disciplinas/cga/trabalhos/tp2-pathtracing/code_cb/src/structs.h
+	"math/vector.h"
+	"math/point.h"
+	"color.h"
+	"ppmimage.h"
+
+1445777834 /home/sergio/Dropbox/ufmg/mestrado/disciplinas/cga/trabalhos/tp2-pathtracing/code_cb/src/ppmimage.h
+	"color.h"
+	<string>
+	<vector>
+
+1445510961 /home/sergio/Dropbox/ufmg/mestrado/disciplinas/cga/trabalhos/tp2-pathtracing/code_cb/src/ray.h
+	"math/point.h"
+	"math/vector.h"
+
+1446913631 /home/sergio/Dropbox/ufmg/mestrado/disciplinas/cga/trabalhos/tp2-pathtracing/code_cb/src/math/matrix.h
+	"math.h"
+	<cstring>
+	<new>
+	<stdexcept>
+	<cfloat>
+	<string>
+	<sstream>
+
+1445640368 /home/sergio/Dropbox/ufmg/mestrado/disciplinas/cga/trabalhos/tp2-pathtracing/code_cb/src/raytracer.h
+	"color.h"
+	"ray.h"
+	"math/point.h"
+	"math/vector.h"
+	"structs.h"
+	"scene.h"
+	"multijittered.h"
+
+1448197356 source:/home/sergio/Dropbox/ufmg/mestrado/disciplinas/cga/trabalhos/tp2-pathtracing/code_cb/src/multijittered.cpp
+	"multijittered.h"
+
+1448197283 source:/home/sergio/Dropbox/ufmg/mestrado/disciplinas/cga/trabalhos/tp2-pathtracing/code_cb/src/object.cpp
+	"object.h"
+	"scene.h"
+	"math/math.h"
+	"math/matrix.h"
+	"pathtracer.h"
+	<random>
+
+1446913244 source:/home/sergio/Dropbox/ufmg/mestrado/disciplinas/cga/trabalhos/tp2-pathtracing/code_cb/src/ppmimage.cpp
+	"ppmimage.h"
+	<algorithm>
+	<fstream>
+	<sstream>
+	<stdexcept>
+
+1444826141 source:/home/sergio/Dropbox/ufmg/mestrado/disciplinas/cga/trabalhos/tp2-pathtracing/code_cb/src/ray.cpp
+	"ray.h"
+
+1445778944 source:/home/sergio/Dropbox/ufmg/mestrado/disciplinas/cga/trabalhos/tp2-pathtracing/code_cb/src/raytracer.cpp
+	"raytracer.h"
+	"ppmimage.h"
+	<fstream>
+
+1445779124 source:/home/sergio/Dropbox/ufmg/mestrado/disciplinas/cga/trabalhos/tp2-pathtracing/code_cb/src/sampler.cpp
+	<algorithm>
+	<stdlib.h>
+	"sampler.h"
+	"math/math.h"
+
+1447761962 source:/home/sergio/Dropbox/ufmg/mestrado/disciplinas/cga/trabalhos/tp2-pathtracing/code_cb/src/scene.cpp
+	"scene.h"
+	"pathtracer.h"
+	<fstream>
+	<iostream>
+	<cstdlib>
+
+1448070246 /home/sergio/Dropbox/ufmg/mestrado/disciplinas/cga/trabalhos/tp2-pathtracing/code_cb/src/pathtracer.h
+	<random>
+	"color.h"
+	"ray.h"
+	"math/point.h"
+	"math/vector.h"
+	"structs.h"
+	"scene.h"
+	"intersection.h"
+	"multijittered.h"
+
+1448126664 source:/home/sergio/Dropbox/ufmg/mestrado/disciplinas/cga/trabalhos/tp2-pathtracing/code_cb/src/pathtracer.cpp
+	<chrono>
+	"pathtracer.h"
+	"ppmimage.h"
+	<fstream>
+	<omp.h>
+
+1447413691 /home/sergio/Dropbox/ufmg/mestrado/disciplinas/cga/trabalhos/tp2-pathtracing/code_cb/src/intersection.h
+	"math/point.h"
+	"math/vector.h"
+	"object.h"
+
+1448197455 source:/home/sergio/Dropbox/ufmg/mestrado/disciplinas/cga/trabalhos/tp2-pathtracing/code/src/light.cpp
+	"light.h"
+	"multijittered.h"
+	<string>
+
+1448064109 /home/sergio/Dropbox/ufmg/mestrado/disciplinas/cga/trabalhos/tp2-pathtracing/code/src/light.h
+	"math/point.h"
+	"color.h"
+
+1448065778 /home/sergio/Dropbox/ufmg/mestrado/disciplinas/cga/trabalhos/tp2-pathtracing/code/src/math/point.h
+	<iostream>
+	"vector.h"
+
+1445777093 /home/sergio/Dropbox/ufmg/mestrado/disciplinas/cga/trabalhos/tp2-pathtracing/code/src/math/vector.h
+	<iostream>
+	"math.h"
+
+1445777124 /home/sergio/Dropbox/ufmg/mestrado/disciplinas/cga/trabalhos/tp2-pathtracing/code/src/math/math.h
+	<cmath>
+
+1447356264 /home/sergio/Dropbox/ufmg/mestrado/disciplinas/cga/trabalhos/tp2-pathtracing/code/src/color.h
+	<iostream>
+	<math.h>
+
+1445777233 /home/sergio/Dropbox/ufmg/mestrado/disciplinas/cga/trabalhos/tp2-pathtracing/code/src/multijittered.h
+	"sampler.h"
+
+1445779136 /home/sergio/Dropbox/ufmg/mestrado/disciplinas/cga/trabalhos/tp2-pathtracing/code/src/sampler.h
+	<vector>
+	<math.h>
+	"math/point.h"
+
+1448064239 source:/home/sergio/Dropbox/ufmg/mestrado/disciplinas/cga/trabalhos/tp2-pathtracing/code/src/main.cpp
+	"scene.h"
+	"pathtracer.h"
+
+1447367352 /home/sergio/Dropbox/ufmg/mestrado/disciplinas/cga/trabalhos/tp2-pathtracing/code/src/scene.h
+	"object.h"
+	"structs.h"
+	"light.h"
+
+1448559900 /home/sergio/Dropbox/ufmg/mestrado/disciplinas/cga/trabalhos/tp2-pathtracing/code/src/object.h
+	"structs.h"
+	"ray.h"
+	"math/matrix.h"
+
+1448561540 /home/sergio/Dropbox/ufmg/mestrado/disciplinas/cga/trabalhos/tp2-pathtracing/code/src/structs.h
+	"math/vector.h"
+	"math/point.h"
+	"color.h"
+	"ppmimage.h"
+
+1445777834 /home/sergio/Dropbox/ufmg/mestrado/disciplinas/cga/trabalhos/tp2-pathtracing/code/src/ppmimage.h
+	"color.h"
+	<string>
+	<vector>
+
+1445510961 /home/sergio/Dropbox/ufmg/mestrado/disciplinas/cga/trabalhos/tp2-pathtracing/code/src/ray.h
+	"math/point.h"
+	"math/vector.h"
+
+1446913631 /home/sergio/Dropbox/ufmg/mestrado/disciplinas/cga/trabalhos/tp2-pathtracing/code/src/math/matrix.h
+	"math.h"
+	<cstring>
+	<new>
+	<stdexcept>
+	<cfloat>
+	<string>
+	<sstream>
+
+1448364213 /home/sergio/Dropbox/ufmg/mestrado/disciplinas/cga/trabalhos/tp2-pathtracing/code/src/pathtracer.h
+	<random>
+	"color.h"
+	"ray.h"
+	"math/point.h"
+	"math/vector.h"
+	"structs.h"
+	"scene.h"
+	"intersection.h"
+	"multijittered.h"
+
+1447413691 /home/sergio/Dropbox/ufmg/mestrado/disciplinas/cga/trabalhos/tp2-pathtracing/code/src/intersection.h
+	"math/point.h"
+	"math/vector.h"
+	"object.h"
+
+1448197356 source:/home/sergio/Dropbox/ufmg/mestrado/disciplinas/cga/trabalhos/tp2-pathtracing/code/src/multijittered.cpp
+	"multijittered.h"
+
+1448562209 source:/home/sergio/Dropbox/ufmg/mestrado/disciplinas/cga/trabalhos/tp2-pathtracing/code/src/object.cpp
+	"object.h"
+	"scene.h"
+	"math/math.h"
+	"math/matrix.h"
+	"pathtracer.h"
+	<random>
+
+1448564495 source:/home/sergio/Dropbox/ufmg/mestrado/disciplinas/cga/trabalhos/tp2-pathtracing/code/src/pathtracer.cpp
+	<chrono>
+	<fstream>
+	<omp.h>
+	"pathtracer.h"
+	"ppmimage.h"
+
+1448197421 source:/home/sergio/Dropbox/ufmg/mestrado/disciplinas/cga/trabalhos/tp2-pathtracing/code/src/ppmimage.cpp
+	"ppmimage.h"
+	<algorithm>
+	<fstream>
+	<sstream>
+	<stdexcept>
+
+1444826141 source:/home/sergio/Dropbox/ufmg/mestrado/disciplinas/cga/trabalhos/tp2-pathtracing/code/src/ray.cpp
+	"ray.h"
+
+1445779124 source:/home/sergio/Dropbox/ufmg/mestrado/disciplinas/cga/trabalhos/tp2-pathtracing/code/src/sampler.cpp
+	<algorithm>
+	<stdlib.h>
+	"sampler.h"
+	"math/math.h"
+
+1448561613 source:/home/sergio/Dropbox/ufmg/mestrado/disciplinas/cga/trabalhos/tp2-pathtracing/code/src/scene.cpp
+	"scene.h"
+	"pathtracer.h"
+	<fstream>
+	<iostream>
+	<cstdlib>
+
