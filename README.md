@@ -1,4 +1,4 @@
-A free-dependent c++ pathtracing project coded as an assignment of a computer graphics course. 
+A dependency free c++ pathtracing project coded as an assignment of a computer graphics course. 
 
 Coded and tested using Code::Blocks and G++ on Ubuntu 14.04.
 
